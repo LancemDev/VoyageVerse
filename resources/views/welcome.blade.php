@@ -15,7 +15,7 @@
     <body>
         <!-- Main navigation container -->
         <nav
-        class="flex-no-wrap relative flex w-full items-center justify-between bg-[#333] py-2 shadow-md shadow-black/5 dark:bg-neutral-333 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4"
+        class="flex-no-wrap mt-0 mb-0 relative flex w-full items-center justify-between bg-[#333] py-2 shadow-md shadow-black/5 dark:bg-neutral-333 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4"
         data-te-navbar-ref>
         <div class="flex w-full flex-wrap items-center justify-between px-3">
         <!-- Hamburger button for mobile view -->
@@ -49,7 +49,7 @@
             data-te-collapse-item>
             <!-- Logo -->
             <a
-            class="mb-4 ml-2 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
+            class="mb-4 ml-12 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
             href="#">
             <img
                 src="https://tecdn.b-cdn.net/img/logo/te-transparent-noshadows.webp"
@@ -92,7 +92,7 @@
         </div>
 
         <!-- Right elements -->
-        <div class="relative flex items-center">
+        <div class="relative flex items-center mr-12">
             <!-- Login Link -->
             <a
             class="hidden lg:block text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2"
@@ -107,7 +107,16 @@
                 href="#"
                 data-te-nav-link-ref>Register</a>
         </div>
-        </nav>             
+        </nav>   
+        
+
+        <!-- The images and texts side by side -->
+        <div class="mx-10">
+            <div class="flex text-black-900 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2">
+                <h2>Busy but want to plan for your Vacay?</h2> <br>
+                <p>We got you covered. No need to stress</p>
+            </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/tw-elements@1.2.2/dist/tw-elements.js"></script>
         <script>
