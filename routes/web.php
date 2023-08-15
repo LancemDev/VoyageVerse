@@ -26,3 +26,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+// Route::resource('googleaddress', \App\Http\Controllers\GoogleAddressController::class)->middleware('auth');
+Route::get('/getAddress', [\App\Http\Controllers\GoogleAddressController::class, 'index'])->middleware('auth');
